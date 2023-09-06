@@ -10,6 +10,7 @@ class _CourseState extends State<Course> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home:
       DefaultTabController(length: 3, child: Scaffold(
         appBar: AppBar(
@@ -62,6 +63,7 @@ class _CourseState extends State<Course> {
                               onPressed: () {
                                 showModalBottomSheet<void>(
                                   context: context,
+
                                   builder: (BuildContext context) {
                                     return Container(
                                       height: 200,
@@ -101,14 +103,15 @@ class _CourseState extends State<Course> {
               Center(
                 child: Center(
                   child: ElevatedButton(
-                    child: const Text('showModalBottomSheet'),
+                    child: const Text('Open Quiz'),
                     onPressed: () {
                       showModalBottomSheet<void>(
                         context: context,
                         builder: (BuildContext context) {
                           return Container(
-                            height: 200,
-                            color: Colors.amber,
+                            height: 300,
+                            width: 300,
+                            color: Colors.pinkAccent,
                             child: Center(
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
@@ -132,12 +135,8 @@ class _CourseState extends State<Course> {
               )
             ],
           ),
-          Column(
-            children: [
-              Center(
-                child: Text("This page contains the review of learners"),
-              )
-            ],
+          Center(
+            child: Text("This is the review section",style: TextStyle(fontSize: 25),),
           )
         ]),
 

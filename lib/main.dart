@@ -15,9 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:Programming()
-      // Course()
-        //Devops()
+      home:
+      // Programming()
+      Course()
+      //   Devops()
       // DefaultTabController(length: 3, child: Scaffold(
       //   appBar: AppBar(
       //     backgroundColor: Color.fromRGBO(0, 0, 128, 0.7),

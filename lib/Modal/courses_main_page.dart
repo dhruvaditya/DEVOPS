@@ -86,9 +86,13 @@ class _ProgrammingState extends State<Programming> {
                   ),
                   width: 380,
                   height: 201,
-                  child: Center(
-                    child: Text('Devops', style: TextStyle(color: Colors.white)),
-                  ),
+                  child: Column(
+                    children: [
+                      Center(
+                        child: Text("Cloud Computing",),
+                      )
+                    ],
+                  )
                 ),
               ),
             ),
