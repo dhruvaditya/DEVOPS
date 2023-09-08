@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:programming_hub/Modal/courses_main_page.dart';
+import 'package:programming_hub/Screens/auth_screen.dart';
 import 'package:programming_hub/Screens/course_page.dart';
 import 'package:programming_hub/Screens/page1.dart';
 import 'package:programming_hub/Screens/page0.dart';
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home:
       // Programming()
-      Course()
+      // Course()
+      Otpform()
       //   Devops()
       // DefaultTabController(length: 3, child: Scaffold(
       //   appBar: AppBar(
