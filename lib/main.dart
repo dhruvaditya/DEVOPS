@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       home:
       // Programming()
       // Course()
-      Otpform()
+      // Otpform()
       //   Devops()
       // DefaultTabController(length: 3, child: Scaffold(
       //   appBar: AppBar(

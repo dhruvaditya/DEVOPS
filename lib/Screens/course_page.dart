@@ -16,7 +16,7 @@ class _CourseState extends State<Course> {
         appBar: AppBar(
           backgroundColor: Color.fromRGBO(0, 0, 128, 0.7),
           title:Center(
-            child: Text('DevOps'),
+            child: Text('Near by E- Waste Locator'),
           ),
           // leading: IconButton(
           //   onPressed: () {},
@@ -52,8 +52,8 @@ class _CourseState extends State<Course> {
                       children: <Widget>[
                         const ListTile(
                           leading: Icon(Icons.laptop),
-                          title: Text('DevOps - Development'),
-                          subtitle: Text('Learn Basics of DevOps'),
+                          title: Text('Jarua, Hoogly, West Bengal 712138'),
+                          subtitle: Text('Contact us'),
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.end,
@@ -93,6 +93,148 @@ class _CourseState extends State<Course> {
                       ],
                     ),
                   ),
+                  Card(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: <Widget>[
+                        const ListTile(
+                          leading: Icon(Icons.laptop),
+                          title: Text('Budge Budge South 24 Porgana, West Bengal'),
+                          subtitle: Text('Contact us'),
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: <Widget>[
+                            ElevatedButton(
+                              child: const Text('Continue'),
+                              onPressed: () {
+                                showModalBottomSheet<void>(
+                                  context: context,
+
+                                  builder: (BuildContext context) {
+                                    return Container(
+                                      height: 200,
+                                      color: Colors.amber,
+                                      child: Center(
+                                        child: Column(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          mainAxisSize: MainAxisSize.min,
+                                          children: <Widget>[
+                                            const Text('Modal BottomSheet'),
+                                            ElevatedButton(
+                                              child: const Text('Close BottomSheet'),
+                                              onPressed: () => Navigator.pop(context),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                );
+                              },
+                            ),
+                            const SizedBox(width: 8),
+
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  Card(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: <Widget>[
+                        const ListTile(
+                          leading: Icon(Icons.laptop),
+                          title: Text('Ruiya Industrial Complex, North 24 Porgana, West Bengal 750119'),
+                          subtitle: Text('Contact us'),
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: <Widget>[
+                            ElevatedButton(
+                              child: const Text('Continue'),
+                              onPressed: () {
+                                showModalBottomSheet<void>(
+                                  context: context,
+
+                                  builder: (BuildContext context) {
+                                    return Container(
+                                      height: 200,
+                                      color: Colors.amber,
+                                      child: Center(
+                                        child: Column(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          mainAxisSize: MainAxisSize.min,
+                                          children: <Widget>[
+                                            const Text('Modal BottomSheet'),
+                                            ElevatedButton(
+                                              child: const Text('Close BottomSheet'),
+                                              onPressed: () => Navigator.pop(context),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                );
+                              },
+                            ),
+                            const SizedBox(width: 8),
+
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  Card(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: <Widget>[
+                        const ListTile(
+                          leading: Icon(Icons.laptop),
+                          title: Text('Bakrahat, South 24 porgona West Bengal 743377'),
+                          subtitle: Text('Contact us'),
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: <Widget>[
+                            ElevatedButton(
+                              child: const Text('Continue'),
+                              onPressed: () {
+                                showModalBottomSheet<void>(
+                                  context: context,
+
+                                  builder: (BuildContext context) {
+                                    return Container(
+                                      height: 200,
+                                      color: Colors.amber,
+                                      child: Center(
+                                        child: Column(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          mainAxisSize: MainAxisSize.min,
+                                          children: <Widget>[
+                                            const Text('Modal BottomSheet'),
+                                            ElevatedButton(
+                                              child: const Text('Close BottomSheet'),
+                                              onPressed: () => Navigator.pop(context),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                );
+                              },
+                            ),
+                            const SizedBox(width: 8),
+
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+
                 ],
               ))
             ],

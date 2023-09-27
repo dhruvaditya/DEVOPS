@@ -13,7 +13,7 @@ class _ProgrammingState extends State<Programming> {
       drawer: Drawer(
 
       ),
-      appBar: AppBar(title: Text("Learn Cloud with Aditya"),backgroundColor: Color.fromRGBO(0, 0, 128, 0.7),),
+      appBar: AppBar(title: Text("E - Waste Facility Locator"),backgroundColor: Color.fromRGBO(0, 0, 128, 0.7),),
       body: Column(
         children: [
           Container(
@@ -35,7 +35,7 @@ class _ProgrammingState extends State<Programming> {
                   width: 380,
                   height: 201,
                   child: Center(
-                    child: Text('Cloud Computing', style: TextStyle(color: Colors.white)),
+                    child: Text('Upload Photo of E- Waste', style: TextStyle(color: Colors.white)),
                   ),
                 ),
               ),
@@ -63,7 +63,7 @@ class _ProgrammingState extends State<Programming> {
                   width: 380,
                   height: 201,
                   child: Center(
-                    child: Text('SQL', style: TextStyle(color: Colors.white)),
+                    child: Text('Near by E-Waste Facility Locator', style: TextStyle(color: Colors.white)),
                   ),
                 ),
               ),
@@ -89,7 +89,7 @@ class _ProgrammingState extends State<Programming> {
                   child: Column(
                     children: [
                       Center(
-                        child: Text("Cloud Computing",),
+                        child: Text("Insight about E- Waste",),
                       )
                     ],
                   )
