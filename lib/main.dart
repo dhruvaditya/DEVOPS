@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home:
-      // Programming()
+      Programming()
       // Course()
-      Otpform()
+      // Otpform()
       //   Devops()
       // DefaultTabController(length: 3, child: Scaffold(
       //   appBar: AppBar(

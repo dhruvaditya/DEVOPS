@@ -17,7 +17,7 @@ class _DevopsState extends State<Devops> {
       appBar: AppBar(
         backgroundColor: Color.fromRGBO(0, 0, 128, 0.7),
         leading: Icon(Icons.close_fullscreen_sharp),
-        title: (Text('Devops')),
+        title: (Text('Insight about E-Waste')),
       ),
       backgroundColor: Color.fromRGBO(8, 32, 102, 0.5),
       body: SingleChildScrollView(
@@ -32,17 +32,17 @@ class _DevopsState extends State<Devops> {
           Image.network(
               'https://st4.depositphotos.com/9233766/40752/i/600/depositphotos_407523070-stock-photo-devops-agile-development-concept-on.jpg'),
           Text(
-            'A warm welcome to you in this course',
+            'A warm welcome to you in Insight of E-Waste',
             style: TextStyle(color: Colors.white, fontSize: 25),
           ),
           Padding(padding: EdgeInsets.all(10.0)),
           Text(
-            'I am sure you did not land on this course just like that',
+            'There are many E-Waste that are wasted in the Environment and has many bad empact on our Environment',
             style: TextStyle(color: Colors.white, fontSize: 25),
           ),
           Padding(padding: EdgeInsets.all(10.0)),
           Text(
-              'I believe this course definitely would be having something in store that interest you',
+              'So here are some practical data which can help you to better understand the advantage of E-Waste Management system',
               style: TextStyle(color: Colors.white, fontSize: 25)),
           Padding(padding: EdgeInsets.all(10.0)),
           Text(
